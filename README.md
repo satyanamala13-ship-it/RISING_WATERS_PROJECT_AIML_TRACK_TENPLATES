@@ -18,4 +18,6 @@
 
 8.Project Demonstration
 
-Project repository updated with Rising Waters project documentation.
+This repository contains all project documents, source code, and deliverables for the Rising Waters project.
+
+The project predicts the possibility of rising water levels using rainfall, humidity, and cloud cover data with a Flask-based web application.
