@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flood Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+
+<h1>Flood Prediction App</h1>
+
+<form action="/predict" method="POST">
+
+    <label>Temperature</label><br>
+    <input type="number" name="temp" step="any" required><br><br>
+
+    <label>Humidity</label><br>
+    <input type="number" name="humidity" step="any" required><br><br>
+
+    <label>Cloud Cover</label><br>
+    <input type="number" name="cloud" step="any" required><br><br>
+
+    <label>Annual Rainfall</label><br>
+    <input type="number" name="annual" step="any" required><br><br>
+
+    <label>Jan-Feb Rainfall</label><br>
+    <input type="number" name="jan_feb" step="any" required><br><br>
+
+    <label>Mar-May Rainfall</label><br>
+    <input type="number" name="mar_may" step="any" required><br><br>
+
+    <label>Jun-Sep Rainfall</label><br>
+    <input type="number" name="jun_sep" step="any" required><br><br>
+
+    <label>Oct-Dec Rainfall</label><br>
+    <input type="number" name="oct_dec" step="any" required><br><br>
+
+    <label>Average June Rainfall</label><br>
+    <input type="number" name="avgjune" step="any" required><br><br>
+
+    <label>Sub</label><br>
+    <input type="number" name="sub" step="any" required><br><br>
+
+    <input type="submit" value="Predict">
+
+</form>
+
+</body>
+</html>
